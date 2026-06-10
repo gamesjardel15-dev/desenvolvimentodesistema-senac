@@ -23,11 +23,4 @@ let idade = 18
 let FATURAMENTO = 32520.96
 let META_MENSAL = 45630.00
 
-if(===45630.00) {
-    console.log(` o faturamento ${FATURAMENTO} corresponde a ${regra}`)
-} else {
-    console.log(`
-        o valor ${valor} não  corresponde a ${regra}`)
-
-}
 
