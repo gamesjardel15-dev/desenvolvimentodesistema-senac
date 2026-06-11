@@ -1,0 +1,36 @@
+<script>
+    let acessoPermitido = true;
+    let idade = prompt("Digite sua idade");
+
+if(idade !=="" && idade != null){
+     
+    let numidade = Number(idade);
+
+    if (Number.isFinite(numidade)) {
+
+        if(idade<18) {
+            acessoPermitido = false;
+            alert("ACESSO NEGADO! status: " + acessoPermitido)
+        }else {
+            acessoPermitido + true;
+            alert("ACESSO PERMITIDO! status ATUAL: " + acessoPermitido)
+        }
+
+        alert(idade + "é um número")
+        
+    } else {
+
+        alert(numidade + " Não é um número")
+        
+    }
+
+    alert("Ok"+idade)
+
+}else{
+    alert("Vazio ou cancelado")
+}
+
+
+
+
+</script>

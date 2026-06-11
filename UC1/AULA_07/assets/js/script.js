@@ -8,16 +8,16 @@ if(acao!=="" && acao<=1 && acao>=0) {
     
     if(confirmar){
         
-        if(acao===0){
+        if(acao==0){
             status=false
-            console.log(`O SISTEMA ESTÁ DESATIVADO
+        console.log(`O SISTEMA ESTÁ DESATIVADO
                 O STATUS É ${status}`)
-        } else {(`O SISTEMA ESTÁ ATIVADO
-            O STATUS É ${status}`)
+        } else {
+            console.log(`O SISTEMA ESTÁ ATIVADO
+            O STATUS É ${status}`) 
+            console.log(`Você confirmou a alteração ${acao}`)
         }
 
-        console.log(`Você confirmou a alteração ${acao}
-            `)
 
     } else { 
         alert("Você cancelou a alteração")
